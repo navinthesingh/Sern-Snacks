@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./css/mobile.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/109336f6a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home | Sern Snacks</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="logo">
+        <h1>
+          <a href="./index.html"
+            ><i class="fa-solid fa-burger"></i> SERN SNACKS</a
+          >
+        </h1>
+      </div>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="current">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <section id="contact-form">
+      <div class="container">
+        <h1><span class="text-primary">Contact</span> Us</h1>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments"></textarea>
+          </div>
+          <button type="submit" class="btn btn-green">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-info">
+      <div id="icons" class="container">
+        <div class="box bg-dark-green">
+          <i class="fa-solid fa-store fa-3x"></i>
+          <h1>Location</h1>
+          <p>No. 2, Jalan Taman Duta Off Jalan Duta, Kuala Lumpur</p>
+        </div>
+        <div class="box bg-dark-red">
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <h1>Phone Number</h1>
+          <p>(636) 946-2468</p>
+        </div>
+        <div class="box bg-dark-green">
+          <i class="fa-solid fa-envelope fa-3x"></i>
+          <h1>Email Address</h1>
+          <p>sern_snacks563@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="clr"></div>
+    <footer>
+      <div class="main-footer">
+        <div class="column1">
+          <h1>SERN SNACKS</h1>
+          <div class="social">
+            <i class="fa-brands fa-square-instagram fa-2x"></i>
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-youtube fa-2x"></i>
+          </div>
+          <div class="links">
+            <p><a href="#">Home</a></p>
+            <p><a href="#">Order</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Contact</a></p>
+          </div>
+          <p>SERN SNACKS &copy; 2021</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

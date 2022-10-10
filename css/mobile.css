@@ -1,0 +1,38 @@
+#navbar{
+  flex-direction: column;
+  height: 290px;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#navbar ul{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+
+#navbar ul li{
+  width: 100vw;
+  /* margin-bottom: 20px; */
+  padding-bottom: 12px;
+  padding-top: 12px;
+  transition: 0.4s ease-out;
+}  
+
+#navbar ul li:hover{
+  background: #8c1c1c;
+  color: #cdcdcd;
+  transform: translateY(-5px);
+} 
+
+#navbar ul li a:hover{
+  border-bottom: none;
+} 
+
+
