@@ -35,4 +35,15 @@
   border-bottom: none;
 } 
 
+.card .image img{
+  width: 16rem;
+}
 
+.card .content p,h3{
+  padding: 4px;
+}
+
+.main-footer .social i{
+  padding: 5px;
+  margin: 15px;
+}

@@ -255,6 +255,7 @@ a {
 }
 
 #cart p, h2{
+  text-align: center;
   padding-bottom: 30px;
 }
 
@@ -279,8 +280,8 @@ a {
   /* background: #418e6d; */
 } 
 .main-footer .social i{
-  padding: 10px;
-  margin: 30px;
+  padding: 8px;
+  margin: 15px;
   background: #fff;
   color: #b83535;
   border-radius: 50%;
